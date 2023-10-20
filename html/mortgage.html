@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1> Mortgage Calculator </h1>
+    <p>Principal: <input type="number" id="principalField"/></p>
+    <p>Interest: <input type="number" id="interestField"/></p>
+    <p>Duration: <input type="number" id="durationField"/></p>
+
+    <p>Expected Monthly Payments: <input type="number" id="paymentField" readonly/></p>
+    <p>Total Interest: <input type="number" id="totalField" readonly/></p>
+
+    <input type="button" value="Calculate" id="calculateButton" />
+
+<script src="../scripts/mortgage.js"></script>
 </body>
 </html>
