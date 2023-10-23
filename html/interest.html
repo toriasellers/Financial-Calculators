@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../css/pages.css" />
+  </head>
+  <body>
+    <h1>Interest Calculator</h1>
+    <div id="fields">
+      <p>Deposit: <input type="number" id="depositField" /></p>
+      <p>Interest Rate: <input type="number" id="interestRateField" /></p>
+      <p>Duration in Years: <input type="number" id="durationField" /></p>
+
+      <p><input type="submit" value="Calculate" id="calculateButton" /></p>
+
+      <p>
+        Total Interest Earned:
+        <input type="number" id="totalInterestField" readonly />
+      </p>
+      <p>
+        Future Value: <input type="number" id="futureValueField" readonly />
+      </p>
+    </div>
+    <script src="../scripts/interest.js"></script>
+  </body>
 </html>
